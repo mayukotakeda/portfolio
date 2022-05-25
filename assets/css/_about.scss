@@ -1,0 +1,52 @@
+.about-img {
+  background-image: url(../img/sp1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  @include mq(pc) {
+    background-image: url("../img/pc1.png");
+  }
+}
+
+.about-text {
+
+    margin-top: 0;
+
+}
+.about-box {
+  @include mq(pc) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: vw(1366, 960);
+    margin: 3.5vw auto;
+  }
+}
+.mayuko {
+  @include mq(sp) {
+    width: vw(375, 80);
+    height: vw(375, 80);
+    margin: 3vw auto 0 auto;
+  }
+  @include mq(pc) {
+    width: vw(1366, 120);
+    height: vw(1366, 120);
+    margin-top: 1vw;
+  }
+}
+
+.cw-logo {
+  margin-top: 1vw;
+  @include mq(sp){
+    width: vw(375, 45);
+    height: vw(375, 45);
+    margin-left: auto;
+    margin-right: vw(375, 20);
+  }
+  @include mq(pc) {
+    width: vw(1366, 60);
+    height: vw(1366, 60);
+
+  }
+
+}

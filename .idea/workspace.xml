@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abb7d605-2354-4da7-93f7-92245d4fe2ce" name="変更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="282dDLWpCy5IuYSQ43GXFzUSdN7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mayuko/Desktop/kadai5&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="abb7d605-2354-4da7-93f7-92245d4fe2ce" name="変更" comment="" />
+      <created>1650418494771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650418494771</updated>
+      <workItem from="1650418496036" duration="293000" />
+      <workItem from="1650418822638" duration="26047000" />
+      <workItem from="1650447939937" duration="634000" />
+      <workItem from="1650450456347" duration="440000" />
+      <workItem from="1650450919145" duration="17000" />
+      <workItem from="1650499082345" duration="979000" />
+      <workItem from="1650500911378" duration="629000" />
+      <workItem from="1650501602404" duration="1475000" />
+      <workItem from="1650503139160" duration="2868000" />
+      <workItem from="1650517807372" duration="8810000" />
+      <workItem from="1650582870865" duration="6925000" />
+      <workItem from="1650590777810" duration="1028000" />
+      <workItem from="1650594640727" duration="38467000" />
+      <workItem from="1650755877032" duration="18291000" />
+      <workItem from="1650864643586" duration="2352000" />
+      <workItem from="1651015181369" duration="3371000" />
+      <workItem from="1651019736010" duration="6070000" />
+      <workItem from="1651025833732" duration="2000" />
+      <workItem from="1651451850621" duration="5792000" />
+      <workItem from="1651531085617" duration="22884000" />
+      <workItem from="1651558513532" duration="3650000" />
+      <workItem from="1651618456745" duration="11863000" />
+      <workItem from="1651806137480" duration="671000" />
+      <workItem from="1652137785243" duration="393000" />
+      <workItem from="1652832578538" duration="125000" />
+      <workItem from="1653009247031" duration="76000" />
+      <workItem from="1653009649527" duration="1440000" />
+      <workItem from="1653011421631" duration="266000" />
+      <workItem from="1653011792081" duration="2000" />
+      <workItem from="1653011835861" duration="69000" />
+      <workItem from="1653012662021" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

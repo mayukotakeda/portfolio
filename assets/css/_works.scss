@@ -1,0 +1,28 @@
+.works-img {
+  background-image: url('../img/sp3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  @include mq(pc) {
+    background-image: url("../img/pc3.png");
+  }
+}
+
+.demo-img {
+  cursor: pointer;
+  border: 2px solid #28d5c1;
+  border-radius: 5px;
+  padding: 3vw;
+  margin: 2vw auto;
+  width: 50vw;
+  height: auto;
+}
+
+.demo-fig {
+  color: #333333;
+}
+
+.section-text > a {
+  color: #28d5c1;
+  cursor: pointer;
+}

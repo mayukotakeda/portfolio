@@ -1,0 +1,118 @@
+.access {
+  background-color: $yellow;
+  padding-top: 13vw;
+  padding-bottom: vw(375, 60);
+  @include mq(pc) {
+    padding-top: 4.5vw;
+    padding-bottom: vw(1366, 80.1);
+  }
+}
+
+.access-h2 {
+  position: relative;
+  margin-left: vw(375, 16.8);
+  margin-bottom: 8vw;
+  padding-bottom: 3vw;
+  white-space: nowrap;
+  font-family: $font_base;
+  font-size: vw(375, 48);
+  font-weight: bold;
+  text-align: left;
+  @include mq(pc){
+    margin-left: vw(1366, 104.2);
+    margin-bottom: vw(1366, 62);
+    padding-bottom: vw(1366, 10);
+    font-size: vw(1366, 64);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 24vw;
+    height: vw(375, 5);
+    background-color: $blue;
+    bottom: 0;
+    left: 0;
+    @include mq(pc){
+      width: vw(1366, 87);
+      height: vw(1366, 5);
+    }
+  }
+}
+
+.access-box {
+  width: 100%;
+  border-top: 1px solid $sub_black;
+  @include mq(pc) {
+    width: vw(1366, 460);
+    margin-left: 8vw;
+  }
+}
+
+.access-box-inner {
+  padding: vw(375, 16) 0;
+  width: 93vw;
+  margin: 0 auto;
+  @include mq(pc){
+    margin-left: 1.5vw;
+    padding: 1.1vw 0;
+    width: 34vw;
+  }
+}
+
+.access-title {
+  white-space: nowrap;
+  font-family: $font_base;
+  font-weight: bold;
+  font-size: vw(375, 24);
+  text-align: left;
+  line-height: 1.33;
+  letter-spacing: 0.3vw;
+  @include mq(pc){
+    font-size: vw(1366, 24);
+    letter-spacing: 0;
+  }
+}
+
+.access-text {
+  margin-top: 3vw;
+  font-family: $font_base;
+  font-weight: normal;
+  font-size: vw(375, 16);
+  text-align: left;
+  line-height: 1.7;
+  @include mq(pc){
+    margin-top: 1vw;
+    font-size: vw(1366, 16);
+  }
+}
+
+#google-map {
+  margin-top: 3vw;
+  width: 100vw;
+  height: vw(375, 333);
+  @include mq(pc){
+    width: vw(1366, 656.8);
+    height: vw(1366, 577.4);
+    margin-top: 0;
+    margin-right: vw(1366, 109);
+}
+}
+
+.access-wrapper {
+  @include mq(pc) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+
+.information {
+  @include mq(pc){
+    width: vw(1366, 457);
+    height: auto;
+    flex-grow: 1;
+
+  }
+}

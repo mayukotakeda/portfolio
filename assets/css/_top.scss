@@ -1,0 +1,73 @@
+.top {
+  position: relative;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  width: 100%;
+  height: 86vh;
+  animation: bgscroll 30s linear infinite;
+  @include mq(pc) {
+    height: vw(1366, 688);
+  }
+}
+
+@keyframes bgscroll {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -250vw 0;
+  }
+}
+
+.top-card {
+  position: absolute;
+  left: 0;
+  top: 48%;
+  transform: translateY(-50%);
+  width: 96%;
+  height: vw(375, 260);
+  background:rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(3px);
+  padding-left: 4vw;
+  @include mq(pc) {
+    padding-left: 1.5vw;
+    left: 15vw;
+    top: 69.5%;
+    width: 31vw;
+    height: 20vw;
+  }
+}
+
+.top-sub {
+  margin-top: 13vw;
+  font-size: vw(375, 34);
+  font-weight: 400;
+  @include mq(pc) {
+    margin-top: 4vw;
+    font-size: vw(1366, 34);
+  }
+}
+
+.top-title {
+  white-space: nowrap;
+  margin-top: 4vw;
+  margin-bottom: 2vw;
+  font-size: vw(375, 48);
+  font-weight: 500;
+  @include mq(pc) {
+    font-size: vw(1366, 48);
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+}
+
+
+.top-sub_bottom {
+  font-size: vw(375, 24);
+  font-weight: 400;
+  @include mq(pc) {
+    font-size: vw(1366, 32);
+  }
+}

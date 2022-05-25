@@ -1,0 +1,15 @@
+.service {
+  @include mq(pc) {
+    margin-top: 14.5vw;
+  }
+}
+
+.service-img {
+  background-image: url('../img/sp2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  @include mq(pc) {
+    background-image: url('../img/pc2.png');
+  }
+}

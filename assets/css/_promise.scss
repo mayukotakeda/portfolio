@@ -1,0 +1,158 @@
+.promise {
+  @include mq(pc) {
+    margin-top: 12.5vw;
+  }
+}
+
+.promise-wrapper {
+  margin-bottom: 17vw;
+  &:last-of-type {
+    margin-bottom: 1vw;
+  }
+  @include mq(pc) {
+    width: vw(1366, 960);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & + & {
+      margin-top: 3vw;
+    }
+  }
+}
+
+.reverse {
+  @include mq(pc){
+    flex-direction: row-reverse;
+  }
+}
+
+.promise-box {
+  @include mq(pc) {
+    width: vw(1366, 540);
+  }
+}
+
+.promise-h3 {
+  margin-top: 0;
+  letter-spacing: 0.2vw;
+  font-size: vw(375, 28);
+  font-weight: 500;
+  @include mq(pc) {
+    margin-top: 1vw;
+    font-size: vw(1366, 28);
+  }
+}
+
+.promise-desc {
+  margin-top: vw(375, 24);
+  font-size: vw(375, 24);
+  font-weight: normal;
+  line-height: normal;
+  @include mq(pc) {
+    font-size: vw(1366, 24);
+    margin-top: 2vw;
+  }
+}
+
+.promise-img {
+  margin-top: vw(375, 25);
+  width: vw(375, 345);
+  height: vw(375, 240);
+  @include mq(pc) {
+    margin-top: 0;
+    width: vw(1366, 380);
+    height: vw(1366, 300);
+  }
+}
+
+.info-container {
+  width: 100%;
+  @include mq(pc) {
+    margin-top: 5vw;
+  }
+}
+
+.info-wrapper {
+  margin-top: vw(375, 40);
+  @include mq(pc) {
+    width: 60vw;
+    margin: 0 auto;
+    & + & {
+      margin-top: 8vw;
+    }
+  }
+}
+
+.info-h3 {
+  margin-top: vw(375, 40);
+  margin-bottom: vw(375, 20);
+  font-size: vw(375, 32);
+  font-weight: 400;
+  @include mq(pc) {
+    margin-top: vw(1366, 60);
+    margin-bottom: vw(1366, 18);
+    font-size: vw(1366, 32);
+    font-weight: 500;
+  }
+}
+
+.info-desc {
+  font-size: vw(375, 24);
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  @include mq(pc) {
+    font-size: vw(1366, 28);
+    margin-top: 0.5vw;
+
+
+  }
+}
+
+.line {
+  width: 22vw;
+  height: 1px;
+  background: #707070;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  @include mq(pc) {
+    left: 2vw;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8.5vw;
+  }
+}
+
+.price {
+  position: relative;
+  font-size: vw(375, 24);
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+  @include mq(pc) {
+    font-size: vw(1366, 28);
+    width: vw(1366, 300);
+  }
+}
+
+.mail {
+  white-space: nowrap;
+  display: block;
+  margin-top: 2vw;
+  a {
+    color: #28d5c1;
+    font-weight: bold;
+  }
+}
+
+.info-box {
+  @include mq(pc) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+}

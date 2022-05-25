@@ -1,0 +1,145 @@
+.header {
+  height: vw(375, 60);
+  @include mq(pc) {
+    height: vw(1366, 80);
+  }
+}
+
+.header-inner {
+  width: vw(375, 345);
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @include mq(pc) {
+    width: vw(1366, 1186);
+  }
+}
+.header-logo {
+  margin: auto 0;
+  width: vw(375, 165);
+  height: vw(375, 32);
+  @include mq(pc) {
+    width: vw(1366, 300);
+    height: vw(1366, 60);
+  }
+}
+
+.menu-btn {
+  position: fixed;
+  top: vw(375, 7.5);
+  right: vw(375, 15);
+  width: vw(375, 60);
+  height: vw(375, 60);
+  background-image: url("../img/menu.svg");
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: #f8e3a6;
+  border-radius: 5px;
+  box-shadow: 16px 14px 29px -11px rgba(0,0,0,0.3);
+  z-index: 100;
+  @include mq(pc) {
+    width: vw(1366, 70);
+    height: vw(1366, 70);
+    top: vw(1366, 12);
+    right: vw(1366, 90);
+  }
+}
+
+@keyframes fuwa {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.anime-fuwa {
+  animation: 3s fuwa infinite;
+}
+
+
+
+nav {
+  background-color: rgba( 255, 255, 255, 0.9);
+  width: vw(375, 180);
+  height: 100%;
+  position: fixed;
+  top: vw(375, 60);
+  right: vw(375, -180);
+  z-index: 100;
+  transition: all 0.6s ease-in-out;
+  @include mq(pc) {
+    top: vw(1366, 80);
+    width: vw(1366, 330);
+  }
+}
+
+nav.open {
+  right: 0;
+}
+
+.nav-items {
+  margin-left: vw(375, 42);
+  margin-top: vw(375, 68);
+  @include mq(pc) {
+    margin-top: vw(1366, 75);
+    margin-left: 10vw;
+  }
+}
+
+.nav-item {
+  a {
+    position: relative;
+    text-decoration: none;
+    font-size: vw(375, 24);
+    font-weight: 400;
+    text-align: left;
+    color: $main_black;
+    @include mq(pc) {
+      font-size: vw(1366, 28);
+      letter-spacing: 0.15vw;
+      font-weight: 500;
+    }
+
+    &::after {
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 2px;
+      background: #28d5c1;
+      transform: scale(0, 1);
+      transform-origin: left top;
+      transition: transform .3s;
+    }
+
+    &:hover {
+      color: #28d5c1;
+    }
+
+    &:hover::after {
+      transform: scale(1, 1);
+    }
+
+    @include mq(pc) {
+      font-size: vw(1366, 24);
+    }
+  }
+}
+
+  .nav-item a {
+    display: inline-block;
+  }
+.nav-item{
+  margin-top: vw(375, 28);
+  @include mq(pc) {
+    margin-top: 2.5vw;
+  }
+}
+

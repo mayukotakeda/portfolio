@@ -1,0 +1,12 @@
+.footer-cw {
+  margin: 0 auto;
+}
+
+.footer-logo {
+  width: vw(375, 55);
+  height: auto;
+  margin: 0 auto 6vw auto;
+  @include mq(pc) {
+    width: vw(1366, 82);
+  }
+}
